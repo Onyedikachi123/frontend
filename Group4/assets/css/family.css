@@ -92,7 +92,7 @@
 }
 .active{
     width: 15%;
-    height: 50px;
+    height: 100px;
     cursor: pointer;
 }
 .small-image{
@@ -174,4 +174,92 @@
     .slide-show{
         padding: 0.5em;
     }
+    .overview p {
+    font-size: 17px;
+    line-height: 1.5em;
+    text-align: justify;
+    }
 }
+
+
+/* Style for the Amenties section =================================================================================================== */
+.grid-item h2::after {
+    content:' ';
+    display:block;
+    border:1px solid #DADADA;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 2em 4em;
+   
+    
+  }
+
+  .grid-item span {
+      font-weight: 800;
+  }
+
+   .grid-item-amenties-li{
+      margin: 20px 0;
+  }
+
+  .grid-item-amenties {
+      list-style: none;
+  }
+
+  .amenities-details p {
+    text-align: center;
+  }
+
+  .amenities-details button {
+    background-color: #EB392E;
+    text-align: center;
+    height: 50px;
+    width: 276px;
+    border: none;
+    color: #fff;
+  }
+
+  .amenities-details-title {
+      display: grid;
+      grid-template-columns: auto auto;
+      justify-content: center;
+  }
+
+  .amenities-details-title h1 {
+      margin: 0 100px;
+  }
+.grid-item-amenties-li i {
+    padding: 0em 0.5em;
+}
+
+
+@media only screen and (max-width:768px) {
+    .grid-container {
+        display: flow-root;
+        margin-top: -71px;
+    }
+
+    .grid-item-amenties-li i{
+        float: right;
+    }
+
+    .grid-item-amenties-li {
+        margin: 0px;
+    } 
+
+    .grid-item h3 {
+        margin: 10px 0;
+    }
+
+    .amenities-details button {
+        height: 40px;
+        width: 321px;
+        margin-bottom: 30px;
+    }
+}
+
+/* End Style for the Amenties section =================================================================================================== */

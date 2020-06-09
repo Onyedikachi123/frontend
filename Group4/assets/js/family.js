@@ -35,7 +35,7 @@ function myBackShow(){
     myImg.src = mySlide[i];
     for(j = 0; j < myActive.length; j++){
       if(j == i){
-        myActive[j].style.border = "2px solid #000"
+        myActive[j].style.border = "10px solid #000"
       } else {
         myActive[j].style.border = "none"
       }
@@ -44,7 +44,7 @@ function myBackShow(){
     myImg.src = mySlide[i];
     for(j = 0; j < myActive.length; j++){
       if(j == i){
-        myActive[j].style.border = "2px solid #000"
+        myActive[j].style.border = "10px solid #000"
       } else {
         myActive[j].style.border = "none"
       }
@@ -62,7 +62,7 @@ function mySlideShow(){
     myImg.src = mySlide[i];
     for(j = 0; j < myActive.length; j++){
       if(j == i){
-        myActive[j].style.border = "2px solid #000"
+        myActive[j].style.border = "10px solid #000"
       } else {
         myActive[j].style.border = "none"
       }
@@ -71,7 +71,7 @@ function mySlideShow(){
     myImg.src = mySlide[i];
     for(j = 0; j < myActive.length; j++){
       if(j == i){
-        myActive[j].style.border = "2px solid #000"
+        myActive[j].style.border = "10px solid #000"
       } else {
         myActive[j].style.border = "none"
       }
@@ -80,7 +80,7 @@ function mySlideShow(){
     myImg.src = mySlide[i];
     for(j = 0; j < myActive.length; j++){
       if(j == i){
-        myActive[j].style.border = "2px solid #000"
+        myActive[j].style.border = "10px solid #000"
       } else {
         myActive[j].style.border = "none"
       }
