@@ -116,6 +116,8 @@
     border: none;
     padding: 5px 8px;
 }
+
+
 /* END of Style for the slide-show section =================================================================================================== */
 
 
@@ -137,7 +139,7 @@
 }
 
 .overview h1:after {
-    content:' ';
+    content:'';
     display:block;
     border:1px solid #DADADA;
 }
@@ -158,6 +160,10 @@
         height: 300px;
         margin-bottom: 1em;
     }
+    /* .active {
+        width: 19%;
+    cursor: pointer;
+    } */
 }
 
 @media only screen and (max-width:568px) {
@@ -179,6 +185,10 @@
     line-height: 1.5em;
     text-align: justify;
     }
+
+    .active {
+        width: 19%;
+    }
 }
 
 
@@ -193,7 +203,7 @@
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto;
-    padding: 2em 4em;
+    padding: 0em 5em;
    
     
   }
@@ -240,7 +250,8 @@
 @media only screen and (max-width:768px) {
     .grid-container {
         display: flow-root;
-        margin-top: -71px;
+        margin-top: -45px;
+        margin-bottom: 30px;
     }
 
     .grid-item-amenties-li i{
